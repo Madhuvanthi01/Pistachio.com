@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="wave">
+			<img src="bg.png" alt="pic">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Types</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+			<img src="logo.png" alt="logo">
+		</nav>
+
+		<div class="main-content">
+
+			<div class="image-pista">
+				<div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img1.png">  </div>
+                      <div class="swiper-slide"><img src="img2.png"></div>
+                      <div class="swiper-slide"><img src="img3.png"></div>
+                    </div>
+                   
+                </div>
+				
+		    </div>
+		    <div class="main-text">
+				<h1>The Pistachios</h1>
+				<p>The characters are spread out evenly so that the reader's attention is focused on the layout of the text instead of its content.</p>
+				<button>Know more</button>
+			</div>
+		</div>
+
+		<div class="right">
+			<div class="box">
+				<div class="image">
+					<img src="img4.png">
+				</div>
+				<div class="inner-box">
+					<h3>100% Organic</h3>
+					<p>Lorem ipsum dolor dit amet</p>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="img5.png">
+				</div>
+				<div class="inner-box">
+					<h3>Not Expensive</h3>
+					<p>Lorem ipsum dolor dit amet</p>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="img6.png">
+				</div>
+				<div class="inner-box">
+					<h3>Super Healthy</h3>
+					<p>Lorem ipsum dolor dit amet</p>
+				</div>
+			</div>
+		</div>
+
+		<div  class="social-links">
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="far fa-envelope"></i>
+		</div>
+	</div> 
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	 <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+       });
+    </script>
+
+</body>
+</html>
